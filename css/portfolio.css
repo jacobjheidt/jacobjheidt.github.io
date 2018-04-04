@@ -1,0 +1,74 @@
+
+  .title {
+    height:60px;
+    padding: 10px;
+    margin-bottom: -80px;
+    margin-left: 220px;
+  }
+  .hlogo {
+    margin: 10px;
+  }
+  h1 {
+    font-weight: bold;
+    margin-left: 200px;
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-left: -50px;
+    color: black;
+  }
+  p {
+    font-family: 'IBM Plex Serif', serif;
+    color: black;
+  }
+  main {
+    background-color: rgb(222, 222, 229);
+  }
+
+  nav#main-nav li a:link, nav li a:visited {
+    text-decoration: none;
+    background-color:rgb(160, 166, 175);
+    color: rgb(0, 0, 0);
+    border-radius:0;
+    padding: 5px 9px;
+    margin: 5px;
+  }
+  nav#main-nav li a:hover{
+    background-color:rgb(147, 180, 255);
+  }
+
+  .logo{
+    margin-top: 20px;
+    margin-left: -150px;
+  }
+  .info {
+    margin-top: -300px;
+    width: 320px;
+    margin-left: 200px;
+    border-style: groove;
+    padding: 5px;
+    background-color: white;
+  }
+  .logo1 {
+
+    margin-top: -10px;
+    margin-left: 200px;
+  }
+  .info1 {
+    margin-top: -250px;
+    width: 320px;
+    margin-left: -150px;
+    border-style: groove;
+    padding: 5px;
+    background-color: white;
+  }
+  .w {
+    margin: 30px;
+    margin-left: 200px;
+  }
+.om{
+float: left;
+margin-left: -100px;
+margin-bottom: -30px;
+}
