@@ -6,95 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage 3870 -jacob- </title>
     <!-- //// need for zurb - EDIT FILEPATHS ///// -->
-    <link rel="stylesheet" href="../zurb/css/foundation.css">
-    <link rel="stylesheet" href="../zurb/css/app.css">
+    <link rel="stylesheet" href="zurb/css/foundation.css">
+    <link rel="stylesheet" href="zurb/css/app.css">
     <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|IBM+Plex+Serif" rel="stylesheet">
     <link href="../css/portfolio.css" rel="stylesheet">
-    <style media="screen">
+    <style>
     main {
-      height:1300px;
-      width: 1500px;
+      height: 1000px;
     }
     </style>
   </head>
+
+
   <body>
     <main class="grid-container">
-      <figure class="large-6 cell">
-        <h1 class="title">JHPhotography</h1>
-      </figure>
-      <figure class="large-6 cell">
-        <img class="hlogo" src="../img/headlogo.png" alt="logo">
-      </figure>
-      <!-- ///// ZURB RESPONSIVE NAV BAR ///// -->
-      <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
-      </div>
+      <header class="grid-x grid-margin-x grid-padding-x">
+        <figure class="large-12 cell">
+          <h1>JHPhotography</h1>
+        </figure>
+        <nav id="nav1">
+          <ul>
 
-      <nav class="top-bar" id="main-nav">
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
+            <li><a href="index.html">Home</a></li>
             <div class="dropdown">
-              <button class="dropbtn">Portfolio ∇
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="#">Black/Whites</a>
-                <a href="#">Landscape</a>
-                <a href="#">Athletics</a>
-              </div>
+              <button class="dropbtn">Portfolio</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
             </div>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+            <li><a href="link1">About<a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="grid-x">
+        <figure class="large-12 cell large-offset-6 grid-padding-y">
+          <h2>Welcome!</h2>
+        </figure>
+      </section>
 
-    </nav>
-<!-- ///// ZURB RESPONSIVE NAV BAR ///// -->
-<section class="grid-x">
-  <figure class="large-12 cell large-offset-3 grid-padding-y">
-    <img class="banner" src="../img/banner.jpg" alt=" banner">
-  </figure>
-  <figure class="large-2 cell large-offset-3 grid-padding-y">
-    <h1 class="w">Welcome!</h1>
-  </figure>
-  <figure class="large-5 cell large-offset-3 grid-padding-y">
-    <img class="logo" src="../img/logo.jpg" alt="website logo">
-  </figure>
-  <figure class="large-5 cell large-offset-3 grid-padding-y">
-    <p class="info">JHP (Jacob Heidt Photography) provides pleasing photography to the world in a thoughtful and comfortable
-      environment for clients to use in a professional setting, helping them feel that using these images that
-      the website provides is a way to improve their standards of salesmanship.</p>
-  </figure>
-</section>
-<section class="grid-x">
-  <figure class="large-2 cell large-offset-1 grid-padding-y">
-    <h2 class="om">Our Mission</h2>
-  </figure>
-  <figure class="large-5 cell large-offset-2 grid-padding-y">
-    <img class="logo1" src="../img/landscape1.jpg" alt="landscape image">
-  </figure>
-  <figure class="large-5 cell large-offset-2 grid-padding-y">
-    <p class="info1">Our mission is to provide photos for companies to purchase and use our photos in their professional setting to
-      promote or sell their product. We wish to fulfill the needs of companies that are willing to purchase our photos in a way that
-       promotes their product in a professional manner. We hope that the images we provide improve the standards of the products that
-        you sell.</p>
-  </figure>
-</section>
+      <section class="grid-x">
+        <figure class="large-6 cell large-offset-3 grid-padding-y">
+          <img class="logo" src="../img/logo.jpg" alt="website logo">
+        </figure>
+        <figure class="large-6 cell large-offset-3 grid-padding-y">
+          <P class="info">JHP (jacob Heidt Photography) provides pleasing photography to the world in a thoughtful and comfortable
+            environment for clients to use in a professional setting, helping them feel that using these images that
+            the website provides is a way to improve their standards.
+        </figure>
+      </section>
+      <section class="grid-x">
+        <figure class="large-6 cell large-offset-3 grid-padding-y">
+          <img class="logo1" src="http://placeholder.pics/svg/300x300/A8A8A8/JHP%20logo" alt="website logo">
+        </figure>
+        <figure class="large-6 cell large-offset-3 grid-padding-y">
+          <P class="info1">Our mission is to provide photos for companies to purchase and use our photos in their professional setting to
+            promote or sell their product. We wish to fulfill the needs of companies that are willing to purchase our photos in a way that
+             promotes their product in a professional manner. We hope that the images we provide improve the standards of the products that
+              you sell.
+        </figure>
+      </section>
+
 
     </main>
-  </body>
     <!-- //// need for zurb - EDIT FILEPATHS ///// -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
     <!-- //// need for zurb - EDIT FILEPATHS ///// -->
-  <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-      x.className += " responsive";
-  } else {
-      x.className = "topnav";
-  }
-}
-</script>
+  </body>
 </html>
