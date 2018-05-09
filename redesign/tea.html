@@ -1,0 +1,252 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chocolate Gallery </title>
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+    <link rel="stylesheet" href="zurb/css/foundation.css">
+    <link rel="stylesheet" href="zurb/css/app.css">
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+    <meta name="description" content="Chocolate Gallery">
+    <meta name="author" content="Evan Ramirez">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display" rel="stylesheet">
+    <link href="redesigner.css" rel="stylesheet">
+    <link href="redesign.css" rel="stylesheet">
+    <style>
+    main {
+      height: 1500px;
+    }
+    </style>
+  </head>
+
+
+  <body>
+
+    <main class="grid-container">
+      <header class="grid-x grid-margin-x grid-padding-x">
+        <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="large">
+        </div>
+
+        <nav>
+          <div class="topnav" id="myTopnav">
+              <a href="index.html" class="active">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Chocolate
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="chocolate.html#artisan">Artisan</a>
+                  <a href="chocolate.html#slim">Slim</a>
+                  <a href="chocolate.html#truffle">Truffle</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Tea
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#greens">Greens</a>
+                  <a href="#black">Black</a>
+                  <a href="#herbal">Herbal</a>
+                </div>
+              </div>
+              <a href="about.html" id="padding">About</a>
+              <a href="https://twitter.com/TTRChocolate" target="_blank"><img src ="img/twitter-1icon.png"></a>
+              <a href="https://www.facebook.com/TeaRoomChocolates/" target="_blank"><img src ="img/facebook-1icon.png"></a>
+              <a href="https://www.youtube.com/user/TheTeaRoomChocolate" target="_blank"><img src ="img/youtube-1icon.png"></a>
+
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+
+      <figure class="large-12 cell large-offset-4 grid-padding-y">
+        <img class="main-logo" src="img/tea-logo.png" alt="logo">
+      </figure>
+      </header>
+<!--- put html in here ---------->
+<div id="artisan"></div>
+<br></br>
+<br></br>
+<div class="grid-x grid-padding-x grid-margin-y">
+  <div class="large-2 cell small-1 cell">
+    <h1><a id="greens"></a>Greens</h1>
+  </div>
+</div>
+<div class="grid-x grid-padding-x grid-margin-y">
+  <div class="large-2 cell small-5 cell">
+    <h4>Green EG</h4>
+    <img class="thumbnail" src="img/greenearlgrey.gif" alt="Green Earl Grey Tea">
+      <figcaption>$11.20</figcaption>
+    <section> <!-- ///START ADD TO CART BUTTON/// -->
+      <a class="button" data-open="exampleModal3">Add to cart</a>
+    </section>
+      <div class="reveal tiny" id="exampleModal3" data-reveal>
+        <h5 id="cart">Added to Cart!:)</h5>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div> <!-- /// END ADD TO CART BUTTON/// -->
+
+  <div class="large-2 cell large-offset-1 cell small-5 cell small-offset-2">
+    <h4>Jasmine</h4>
+    <img class="thumbnail" src="img/jasmine_green.gif" alt="Jasmine Tea">
+    <section>
+      <figcaption>$10.65</figcaption>
+       <!-- ///START ADD TO CART BUTTON/// -->
+      <a class="button" data-open="exampleModal3">Add to cart</a>
+
+    </section>
+      <div class="reveal tiny" id="exampleModal3" data-reveal>
+        <h5 id="cart">Added to Cart!:)</h5>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div> <!-- /// END ADD TO CART BUTTON/// -->
+
+  <div class="large-2 cell large-offset-1 cell small-5 cell">
+      <h4>Yerba Mate</h4>
+      <img class="thumbnail" src="img/yerbamate_green.gif" alt="Yerba Mate">
+        <figcaption>$9.75</figcaption>
+      <section> <!-- ///START ADD TO CART BUTTON/// -->
+        <a class="button" data-open="exampleModal3">Add to cart</a>
+      </section>
+        <div class="reveal tiny" id="exampleModal3" data-reveal>
+          <h5 id="cart">Added to Cart!:)</h5>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div> <!-- /// END ADD TO CART BUTTON/// -->
+  </div>
+</div>
+
+<div class="grid-x grid-padding-x grid-margin-y">
+<div class="large-2 cell small-5 cell">
+<h1 id="slim"><a id="black"></a>Black</h1>
+</div>
+</div>
+<div class="grid-x grid-padding-x grid-margin-y">
+<div class="large-2 cell small-5 cell">
+  <h4>Lapsang</h4>
+  <img class="thumbnail" src="img/lapsang_black.gif" alt="Lapsang Sauchong">
+    <figcaption>$9.75</figcaption>
+  <section> <!-- ///START ADD TO CART BUTTON/// -->
+    <a class="button" data-open="exampleModal3">Add to cart</a>
+  </section>
+    <div class="reveal tiny" id="exampleModal3" data-reveal>
+      <h5 id="cart">Added to Cart!:)</h5>
+      <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div> <!-- /// END ADD TO CART BUTTON/// -->
+
+<div class="large-2 cell large-offset-1 small-5 cell small-offset-2">
+  <h4>Masala Chai</h4>
+  <img class="thumbnail" src="img/masalachai_black.gif" alt="Masala Chai">
+    <figcaption>$12.95</figcaption>
+  <section> <!-- ///START ADD TO CART BUTTON/// -->
+    <a class="button" data-open="exampleModal3">Add to cart</a>
+  </section>
+    <div class="reveal tiny" id="exampleModal3" data-reveal>
+      <h5 id="cart">Added to Cart!:)</h5>
+      <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+   <!-- /// END ADD TO CART BUTTON/// -->
+</div>
+<div class="large-2 cell large-offset-1 small-5 cell">
+  <h4>Mayan Pepper</h4>
+  <img class="thumbnail" src="img/mayanpepper_black.gif" alt="Mayan Pepper Chai">
+    <figcaption>$13.30</figcaption>
+  <section> <!-- ///START ADD TO CART BUTTON/// -->
+    <a class="button" data-open="exampleModal3">Add to cart</a>
+  </section>
+    <div class="reveal tiny" id="exampleModal3" data-reveal>
+      <h5 id="cart">Added to Cart!:)</h5>
+      <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div> <!-- /// END ADD TO CART BUTTON/// -->
+</div>
+</div>
+
+<div class="grid-x grid-padding-x grid-margin-y">
+<div class="large-2 cell small-1 cell">
+<h1 id="truffle"><a id="herbal"></a>Herbal</h1>
+</div>
+</div>
+<div class="grid-x grid-padding-x grid-margin-y">
+<div class="large-2 cell small-5 cell">
+<h4>Honeybush</h4>
+<img class="thumbnail" src="img/honeybush_herbal.gif" alt="Honeybush Tea">
+<figcaption>$9.00</figcaption>
+<section> <!-- ///START ADD TO CART BUTTON/// -->
+  <a class="button" data-open="exampleModal3">Add to cart</a>
+</section>
+  <div class="reveal tiny" id="exampleModal3" data-reveal>
+    <h5 id="cart">Added to Cart!:)</h5>
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</div> <!-- /// END ADD TO CART BUTTON/// -->
+
+<div class="large-2 cell large-offset-1 small-5 cell small-offset-2">
+  <h4>Chamomile</h4>
+  <img class="thumbnail" src="img/chamomile_herbal.gif" alt="Chamomile Tea">
+    <figcaption>$7.35</figcaption>
+  <section> <!-- ///START ADD TO CART BUTTON/// -->
+    <a class="button" data-open="exampleModal3">Add to cart</a>
+  </section>
+    <div class="reveal tiny" id="exampleModal3" data-reveal>
+      <h5=cart>Added to Cart!:)</h5>
+      <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div> <!-- /// END ADD TO CART BUTTON/// -->
+
+<div class="large-2 cell large-offset-1 small-5 cell">
+  <h4>Bedouin's Mint </h4>
+  <img class="thumbnail" src="img/bedmint_herbal.gif" alt="Bedouin Mint Tea">
+    <figcaption>$9.35</figcaption>
+  <section> <!-- ///START ADD TO CART BUTTON/// -->
+    <a class="button" data-open="exampleModal3">Add to cart</a>
+  </section>
+    <div class="reveal tiny" id="exampleModal3" data-reveal>
+      <h5 id="cart">Added to Cart!:)</h5>
+      <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div> <!-- ///END ADD TO CART BUTTON/// -->
+</div>
+</div>
+    <!---put html above here ---->
+    </main>
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+    <script src="zurb/js/vendor/jquery.js"></script>
+    <script src="zurb/js/vendor/what-input.js"></script>
+    <script src="zurb/js/vendor/foundation.js"></script>
+    <script src="zurb/js/app.js"></script>
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+      <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+      }
+    </script>
+
+  </body>
+</html>

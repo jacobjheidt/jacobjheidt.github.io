@@ -1,0 +1,316 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chocolate Gallery </title>
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+    <link rel="stylesheet" href="zurb/css/foundation.css">
+    <link rel="stylesheet" href="zurb/css/app.css">
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+    <meta name="description" content="Chocolate Gallery">
+    <meta name="author" content="Evan Ramirez">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display" rel="stylesheet">
+    <link href="redesigner.css" rel="stylesheet">
+    <link href="redesign.css" rel="stylesheet">
+    <style>
+    main {
+      height: 1500px;
+    }
+    </style>
+  </head>
+
+
+  <body>
+
+    <main class="grid-container">
+      <header class="grid-x grid-margin-x grid-padding-x">
+        <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="large">
+        </div>
+
+        <nav>
+          <div class="topnav" id="myTopnav">
+              <a href="index.html" class="active">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn" href="chocolate.html"<>Chocolate
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#artisan">Artisan</a>
+                  <a href="#slim">Slim</a>
+                  <a href="#truffle">Truffle</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Tea
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="tea.html#greens">Greens</a>
+                  <a href="tea.html#black">Black</a>
+                  <a href="tea.html#herbal">Herbal</a>
+                </div>
+              </div>
+              <a href="about.html" id="padding">About</a>
+              <a href="https://twitter.com/TTRChocolate" target="_blank"><img src ="img/twitter-1icon.png"></a>
+              <a href="https://www.facebook.com/TeaRoomChocolates/" target="_blank"><img src ="img/facebook-1icon.png"></a>
+
+              <a href="https://www.youtube.com/user/TheTeaRoomChocolate" target="_blank"><img src ="img/youtube-1icon.png"></a>
+
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+
+        <figure class="large-12 cell large-offset-4 grid-padding-y">
+          <img class="main-logo" src="img/tea-logo.png" alt="logo">
+        </figure>
+      </header>
+<!--- put html in here ---------->
+      <div id="artisan"></div>
+      <br></br>
+      <br></br>
+      <div class="grid-x grid-padding-x grid-margin-y">
+        <div class="large-2 cell small-1 cell">
+          <h1>Artisan</h1>
+        </div>
+      </div>
+      <div class="grid-x grid-padding-x grid-margin-y">
+        <div class="large-2 cell small-5 cell">
+            <h4>Almond</h4>
+            <img class="thumbnail" src="img/almond_caramel.jpg" alt="chocolate picture of almond caramel">
+            <figcaption>$24.00</figcaption>
+          <section> <!-- ///START ADD TO CART BUTTON/// -->
+            <a class="button" data-open="exampleModal3">Add to cart</a>
+          </section>
+          <div class="tiny reveal" id="exampleModal2" data-reveal>
+              <a class="button" data-open="exampleModal3">Add to cart</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="reveal tiny" id="exampleModal3" data-reveal>
+              <h5 id="cart">Added to Cart!:)</h5>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div> <!-- /// END ADD TO CART BUTTON/// -->
+        </div>
+        <div class="large-2 cell large-offset-1 cell small-5 cell small-offset-2">
+          <h4>Chamomile</h4>
+          <img class="thumbnail" src="img/chamomile_honey.jpg" alt="chocolate picture of chamomile honey">
+          <figcaption>$24.00</figcaption>
+          <section> <!-- ///START ADD TO CART BUTTON/// -->
+            <a class="button" data-open="exampleModal3">Add to cart</a>
+          </section>
+          <div class="tiny reveal" id="exampleModal2" data-reveal>
+              <a class="button" data-open="exampleModal3">Add to cart</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="reveal tiny" id="exampleModal3" data-reveal>
+              <h5 id="cart">Added to Cart!:)</h5>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div> <!-- /// END ADD TO CART BUTTON/// -->
+        </div>
+        <div class="large-2 cell large-offset-1 cell small-5 cell">
+            <h4>Rasberry</h4>
+            <img class="thumbnail" src="img/rasberry_rooibos.jpg" alt="chocolate picture of rasberry">
+            <figcaption>$24.00</figcaption>
+            <section> <!-- ///START ADD TO CART BUTTON/// -->
+              <a class="button" data-open="exampleModal3">Add to cart</a>
+            </section>
+            <div class="tiny reveal" id="exampleModal2" data-reveal>
+                <a class="button" data-open="exampleModal3">Add to cart</a>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="reveal tiny" id="exampleModal3" data-reveal>
+                <h5 id="cart">Added to Cart!:)</h5>
+                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div> <!-- /// END ADD TO CART BUTTON/// -->
+        </div>
+        <div class="large-2 cell large-offset-1 cell small-5 cell small-offset-2">
+            <h4>Pina Colada</h4>
+            <img class="thumbnail" src="img/pina_colada.jpg" alt="chocolate picture of ina colada">
+            <figcaption>$24.00</figcaption>
+            <section> <!-- ///START ADD TO CART BUTTON/// -->
+              <a class="button" data-open="exampleModal3">Add to cart</a>
+            </section>
+            <div class="tiny reveal" id="exampleModal2" data-reveal>
+                <a class="button" data-open="exampleModal3">Add to cart</a>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="reveal tiny" id="exampleModal3" data-reveal>
+                <h5 id="cart">Added to Cart!:)</h5>
+                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div> <!-- /// END ADD TO CART BUTTON/// -->
+        </div>
+      </div>
+
+      <div class="grid-x grid-padding-x grid-margin-y">
+      <div class="large-2 cell small-5 cell">
+      <h1 id="slim">Slim</h1>
+      </div>
+      </div>
+      <div class="grid-x grid-padding-x grid-margin-y">
+      <div class="large-2 cell small-5 cell">
+        <h4>Bedouins Mint</h4>
+        <img class="thumbnail" src="img/bedouins_mint.jpg" alt="chocolate picture of bedouins mint">
+        <figcaption>$24.00</figcaption>
+        <section> <!-- ///START ADD TO CART BUTTON/// -->
+          <a class="button" data-open="exampleModal3">Add to cart</a>
+        </section>
+        <div class="tiny reveal" id="exampleModal2" data-reveal>
+            <a class="button" data-open="exampleModal3">Add to cart</a>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="reveal tiny" id="exampleModal3" data-reveal>
+            <h5 id="cart">Added to Cart!:)</h5>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div> <!-- /// END ADD TO CART BUTTON/// -->
+      </div>
+      <div class="large-2 cell large-offset-1 small-5 cell small-offset-2">
+        <h4>Green Earl</h4>
+        <img class="thumbnail" src="img/green_earl_grey.jpg" alt="chocolate picture of green earl grey">
+        <figcaption>$24.00</figcaption>
+        <section> <!-- ///START ADD TO CART BUTTON/// -->
+          <a class="button" data-open="exampleModal3">Add to cart</a>
+        </section>
+        <div class="tiny reveal" id="exampleModal2" data-reveal>
+            <a class="button" data-open="exampleModal3">Add to cart</a>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="reveal tiny" id="exampleModal3" data-reveal>
+            <h5 id="cart">Added to Cart!:)</h5>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div> <!-- /// END ADD TO CART BUTTON/// -->
+      </div>
+      <div class="large-2 cell large-offset-1 small-5 cell">
+        <h4>Black Malasia</h4>
+        <img class="thumbnail" src="img/black_malasia.jpg" alt="chocolate picture of black malasia">
+        <figcaption>$24.00</figcaption>
+        <section> <!-- ///START ADD TO CART BUTTON/// -->
+          <a class="button" data-open="exampleModal3">Add to cart</a>
+        </section>
+        <div class="tiny reveal" id="exampleModal2" data-reveal>
+            <a class="button" data-open="exampleModal3">Add to cart</a>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="reveal tiny" id="exampleModal3" data-reveal>
+            <h5 id="cart">Added to Cart!:)</h5>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div> <!-- /// END ADD TO CART BUTTON/// -->
+      </div>
+      </div>
+
+      <div class="grid-x grid-padding-x grid-margin-y">
+      <div class="large-2 cell small-1 cell">
+      <h1 id="truffle">Truffle</h1>
+      </div>
+      </div>
+      <div class="grid-x grid-padding-x grid-margin-y">
+      <div class="large-2 cell small-5 cell">
+      <h4>Honeybush</h4>
+      <img class="thumbnail" src="img/honeybush_caramel.jpg" alt="chocolate picture of honeybush caramel">
+      <figcaption>$6.00</figcaption>
+      <section> <!-- ///START ADD TO CART BUTTON/// -->
+        <a class="button" data-open="exampleModal3">Add to cart</a>
+      </section>
+      <div class="tiny reveal" id="exampleModal2" data-reveal>
+          <a class="button" data-open="exampleModal3">Add to cart</a>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="reveal tiny" id="exampleModal3" data-reveal>
+          <h5 id="cart">Added to Cart!:)</h5>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div> <!-- /// END ADD TO CART BUTTON/// -->
+      </div>
+      <div class="large-2 cell large-offset-1 small-5 cell small-offset-2">
+        <h4>Bedouins</h4>
+        <img class="thumbnail" src="img/bedouins_mint.jpg" alt="chocolate picture of bedouins mint">
+        <figcaption>$24.00</figcaption>
+        <section> <!-- ///START ADD TO CART BUTTON/// -->
+          <a class="button" data-open="exampleModal3">Add to cart</a>
+        </section>
+        <div class="tiny reveal" id="exampleModal2" data-reveal>
+            <a class="button" data-open="exampleModal3">Add to cart</a>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="reveal tiny" id="exampleModal3" data-reveal>
+            <h5 id="cart">Added to Cart!:)</h5>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div> <!-- /// END ADD TO CART BUTTON/// -->
+      </div>
+      <div class="large-2 cell large-offset-1 small-5 cell">
+        <h4>Midnight Moca</h4>
+        <img class="thumbnail" src="img/midnight_mocha.jpg" alt="chocolate picture of midnight mocha">
+        <figcaption>$24.00</figcaption>
+        <section> <!-- ///START ADD TO CART BUTTON/// -->
+          <a class="button" data-open="exampleModal3">Add to cart</a>
+        </section>
+        <div class="tiny reveal" id="exampleModal2" data-reveal>
+            <a class="button" data-open="exampleModal3">Add to cart</a>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="reveal tiny" id="exampleModal3" data-reveal>
+            <h5 id="cart">Added to Cart!:)</h5>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div> <!-- ///END ADD TO CART BUTTON/// -->
+      </div>
+      </div>
+    <!---put html above here ---->
+    </main>
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+    <script src="zurb/js/vendor/jquery.js"></script>
+    <script src="zurb/js/vendor/what-input.js"></script>
+    <script src="zurb/js/vendor/foundation.js"></script>
+    <script src="zurb/js/app.js"></script>
+    <!-- //// need for zurb - EDIT FILEPATHS ///// -->
+      <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+      }
+    </script>
+
+  </body>
+</html>
