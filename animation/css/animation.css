@@ -3,8 +3,8 @@
 }
 .logo{
   margin-top: -1%;
-margin-right: 64%;
-float: right;
+  margin-right: 64%;
+  float: right;
 }
 .topnav {
   overflow: hidden;
@@ -151,6 +151,20 @@ body{
 
 p{
   font-family: 'Josefin Sans', sans-serif;
+}
+.poet-info{
+  font-family: 'Josefin Sans', sans-serif;
+  width: 500px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+.poet{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
 }
 .left_right {
   padding-bottom: 5px;
